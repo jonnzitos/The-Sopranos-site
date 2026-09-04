@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sopranos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>The Sopranos</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#personagens">Personagens</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <button id="tema">Trocar tema</button>
+        <p id="contador">Cliques no menu: 0</p>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Início</h2>
+
+            <p>
+                The Sopranos é uma série de televisão americana criada por David Chase.
+                A história acompanha Tony Soprano e sua vida como chefe de uma organização criminosa.
+            </p>
+
+            <br>
+
+            <img
+                src="HL_06_02_Sopranos_S06.webp"
+                alt="Imagem representando a série The Sopranos"
+            >
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre a série</h2>
+
+            <p class="destaque">
+                A série combina drama, crime e humor para mostrar os conflitos
+                entre a vida familiar e profissional de Tony Soprano.
+            </p>
+
+            <ul>
+                <li>Tony Soprano</li>
+                <li>Carmela Soprano</li>
+                <li>Christopher Moltisanti</li>
+                <li>Paulie Gualtieri</li>
+            </ul>
+        </section>
+
+        <section id="personagens">
+            <h2>Personagens</h2>
+
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Função</th>
+                </tr>
+                <tr>
+                    <td>Tony Soprano</td>
+                    <td>Chefe da família criminosa</td>
+                </tr>
+                <tr>
+                    <td>Christopher Moltisanti</td>
+                    <td>Associado de Tony</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <form>
+                <label for="nome">Seu nome:</label>
+                <input type="text" id="nome" name="nome">
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p id="mensagem"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>João Victor</p>
+
+        <a href="https://www.hbo.com/the-sopranos" target="_blank">
+            Site oficial da série
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
